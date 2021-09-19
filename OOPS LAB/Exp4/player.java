@@ -15,12 +15,12 @@ class Hockey_Player extends Football_Player{
         System.out.println("Hello i am hockey player.");
     }
 }
-class player extends Hockey_Player {
+class q2 extends Hockey_Player {
     public void prin4(){
         System.out.println("Hello i am player.");
     }
     public static void main(String[] args) {
-        player player=new player();
+        q2 player=new q2();
         player.prin1();
         player.prin2();
         player.prin3();
